@@ -9,7 +9,7 @@ FedRAMP Compliance: High (included as a part of Virtual Private Cloud)
 
 ```
 module "private-service-access" {
-  source = "github.com/Coalfire-CF/ACE-GCP-Private-Service-Access"
+  source = "github.com/Coalfire-CF/terraform-gcp-private-service-access"
 
   project_id = data.terraform_remote_state.bootstrap.outputs.networking_project_id
 
