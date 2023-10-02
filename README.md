@@ -1,7 +1,10 @@
+![Coalfire](coalfire_logo.png)
+
+
 # Google Cloud Private Service Access Terraform Module
 
 ## Description
-Private server access module that allows you to reach the internal IP addresses of services using private connections. This module creates a global address resource and peers it with the network.
+Private server access module that allows you to reach the internal IP addresses of services using private connections. This module creates a global address resource and peers it with the network. Coalfire has tested this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
 
 FedRAMP Compliance: High (included as a part of Virtual Private Cloud)
 
