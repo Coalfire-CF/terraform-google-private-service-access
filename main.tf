@@ -27,3 +27,14 @@ resource "google_service_networking_connection" "private_service_connection" {
   service                 = "servicenetworking.googleapis.com"
   reserved_peering_ranges = [google_compute_global_address.private_service_connection.name]
 }
+
+# Import or export custom routes
+resource "google_compute_network_peering_routes_config" "peering_routes" {
+  project = var.project_id
+  
+  peering = google_service_networking_connection.private_service_connection.peering
+  network = data.google_compute_network.network.name
+
+  import_custom_routes = true
+  export_custom_routes = true
+}
