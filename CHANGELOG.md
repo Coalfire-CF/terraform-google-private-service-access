@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Coalfire-CF/terraform-google-private-service-access/compare/v1.1.0...v1.1.1) (2026-07-06)
+
+
+### Miscellaneous
+
+* **deps:** bump actions/github-script from 8 to 9 ([#35](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/35)) ([02ba91c](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/02ba91c17400f452ef82c1084154b4a9ee9cda9e))
+
 ## [1.1.0](https://github.com/Coalfire-CF/terraform-google-private-service-access/compare/v1.0.4...v1.1.0) (2026-07-05)
 
 
