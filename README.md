@@ -65,18 +65,3 @@ No modules.
 | <a name="output_address"></a> [address](#output\_address) | First IP of the reserved range. |
 | <a name="output_google_compute_global_address_name"></a> [google\_compute\_global\_address\_name](#output\_google\_compute\_global\_address\_name) | URL of the reserved range. |
 <!-- END_TF_DOCS -->
-
-## Tree
-
-```text
-.
-|-- CHANGELOG.md
-|-- CONTRIBUTING.md
-|-- LICENSE
-|-- README.md
-|-- coalfire_logo.png
-|-- main.tf
-|-- outputs.tf
-|-- release-please-config.json
-|-- variables.tf
-```
