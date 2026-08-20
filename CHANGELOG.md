@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.2](https://github.com/Coalfire-CF/terraform-google-private-service-access/compare/v1.1.1...v1.1.2) (2026-08-20)
+
+
+### Bug Fixes
+
+* **release:** pass secrets to org-release (App token for release-please) ([#44](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/44)) ([0d4c01e](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/0d4c01e29ef7e888fb589a482f803642df088cf2))
+
+
+### Miscellaneous
+
+* adopt Actions v0.12.1 (bypass auto-merge + event-driven re-merge) ([80cee82](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/80cee823df58776c978cc104557d6524ab3c9811))
+* **ci:** adopt Coalfire-CF/Actions v0.11.3 ([#42](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/42)) ([e5c88ec](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/e5c88ec9423bd11217a5a68e0cab5442c1c33a7d))
+* **deps:** bump the org-actions group across 1 directory with 9 updates ([#55](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/55)) ([28a90d5](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/28a90d5cdbaa9b61ab6dab396a65708d0e0d36c6))
+* **deps:** bump the org-actions group with 10 updates ([#46](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/46)) ([6f66818](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/6f6681863328a545074f3a20b09d3febcc169546))
+* **deps:** bump the org-actions group with 10 updates ([#47](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/47)) ([a0601fd](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/a0601fda55d197a48019eb9686f1cab4150053ad))
+* **deps:** bump the org-actions group with 10 updates ([#48](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/48)) ([14f25c0](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/14f25c05e18e3dab3bdb40ca6f4e141c7cf0ddca))
+* **deps:** bump the org-actions group with 9 updates ([#45](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/45)) ([a32dff7](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/a32dff70cd485ba7f29f2f26f074b3287dcd4210))
+* **deps:** bump the org-actions group with 9 updates ([#51](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/51)) ([ac886f0](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/ac886f0f0d04723a94402669127b7de32fff799b))
+* **docs:** generate README from _header.md and _footer.md ([#53](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/53)) ([676e0ee](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/676e0eec9c5551dd3b978f6de2441b25122062e9))
+* retire org-tree-readme ([#49](https://github.com/Coalfire-CF/terraform-google-private-service-access/issues/49)) ([deb7042](https://github.com/Coalfire-CF/terraform-google-private-service-access/commit/deb704207a88518303c25bcd2601b66fc614fa34))
+
 ## [1.1.1](https://github.com/Coalfire-CF/terraform-google-private-service-access/compare/v1.1.0...v1.1.1) (2026-07-06)
 
 
